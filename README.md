@@ -4,7 +4,7 @@ Online Gaussian Splatting SLAM ([MonoGS](https://github.com/muskie82/MonoGS)) on
 
 [Vision Systems and Intelligence Lab](https://vsilab.github.io), University of Arizona · Cameron DeBough, Wonhee Koh, Eungjoo Lee · [Bay Area Robotics Symposium 2026](https://bayarearoboticssymposium.github.io/)
 
-![camera frame | online Gaussian map | Gaussians at 25% size](media/run_01_hero.png)
+![robot camera frame | online Gaussian map, same pose (32.6 dB) | same map, other side of the room (28.8 dB)](media/run_05_L_hero.png)
 
 ## Videos
 
@@ -77,3 +77,10 @@ Scripts were written for one workstation and still contain some absolute paths (
 - OAK-D Pro IR dot projector disabled: at 800 mA it browned out the robot's internal USB hub (lidar driver hung, Create 3 needed a power cycle). Without it, untextured surfaces give no depth.
 - Short routes on one indoor scene; the revisit score is a heuristic baseline.
 - Robot bags (~16 MB/s) are not in this repo.
+
+## References
+
+1. H. Matsuki, R. Murai, P. H. J. Kelly, A. J. Davison, "Gaussian Splatting SLAM," CVPR 2024.
+2. J. L. Schönberger, J.-M. Frahm, "Structure-from-Motion Revisited," CVPR 2016.
+3. L. Pan, D. Baráth, M. Pollefeys, J. L. Schönberger, "Global Structure-from-Motion Revisited," ECCV 2024.
+4. B. Kerbl, G. Kopanas, T. Leimkühler, G. Drettakis, "3D Gaussian Splatting for Real-Time Radiance Field Rendering," ACM TOG (SIGGRAPH) 2023.
