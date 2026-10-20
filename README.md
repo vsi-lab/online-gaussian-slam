@@ -2,7 +2,7 @@
 
 Online Gaussian Splatting SLAM ([MonoGS](https://github.com/muskie82/MonoGS)) on real TurtleBot4 RGB-D data, compared against offline structure-from-motion (COLMAP, GLOMAP) + 3D Gaussian Splatting, plus a baseline **revisit planner** that suggests where the robot should look again.
 
-VSI Lab, University of Arizona · Cameron DeBough, Wonhee Koh, Eung-Joo Lee · BARS 2026
+[Vision Systems and Intelligence Lab](https://vsilab.github.io), University of Arizona · Cameron DeBough, Wonhee Koh, Eung-Joo Lee · [Bay Area Robotics Symposium 2026](https://bayarearoboticssymposium.github.io/)
 
 ![camera frame | online Gaussian map | Gaussians at 25% size](media/run_01_hero.png)
 
