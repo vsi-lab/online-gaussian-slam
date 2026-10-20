@@ -1,0 +1,8 @@
+# robot recordings and large outputs
+*.mcap
+*.db3
+bags/
+data/
+*.ply
+__pycache__/
+*.pyc

@@ -1,0 +1,9 @@
+features_s 4.2
+matching_s 3.2
+colmap_mapper_s 210.1
+glomap_mapper_s 51.3
+images 300
+3dgs_train_colmap_s 188.8
+colmap_registered 300
+glomap_registered 300
+3dgs_train_glomap_s 181.0

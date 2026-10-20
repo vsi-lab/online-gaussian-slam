@@ -1,0 +1,67 @@
+{
+  "frame": "odometry (MonoGS world = first frame anchored to odom)",
+  "cell_m": 0.25,
+  "weights": [
+    0.35,
+    0.35,
+    0.3
+  ],
+  "n_gaussians": 24032,
+  "n_keyframes": 18,
+  "goals": [
+    {
+      "rank": 1,
+      "cell_centre_xy": [
+        1.375,
+        -0.875
+      ],
+      "score": 0.9755019386809969,
+      "views": 1.550784972548207,
+      "spread_deg": 0.9906352651226275,
+      "residual": 0.03683237863042989,
+      "goal_xy": [
+        0.965,
+        0.253
+      ],
+      "goal_yaw_rad": -1.2217,
+      "new_angle_deg": 36.70000076293945,
+      "detour_m": 0.29
+    },
+    {
+      "rank": 2,
+      "cell_centre_xy": [
+        1.875,
+        0.375
+      ],
+      "score": 0.7092384233477295,
+      "views": 1.6435922116824009,
+      "spread_deg": 0.7286158767462186,
+      "residual": 0.0057517232588253425,
+      "goal_xy": [
+        1.275,
+        1.414
+      ],
+      "goal_yaw_rad": -1.0472,
+      "new_angle_deg": 70.0,
+      "detour_m": 1.45
+    },
+    {
+      "rank": 3,
+      "cell_centre_xy": [
+        2.125,
+        -0.625
+      ],
+      "score": 0.621076053965265,
+      "views": 3.2871680796944305,
+      "spread_deg": 2.3704211108334503,
+      "residual": 0.007290755051396332,
+      "goal_xy": [
+        1.206,
+        -1.396
+      ],
+      "goal_yaw_rad": 0.6981,
+      "new_angle_deg": 52.599998474121094,
+      "detour_m": 1.36
+    }
+  ]
+}

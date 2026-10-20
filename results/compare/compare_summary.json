@@ -1,0 +1,80 @@
+{
+  "run_01": {
+    "frames": 300,
+    "MonoGS": {
+      "online": true,
+      "pose_s": 143.111328125,
+      "train_s": 0.0,
+      "front_s": 0.0,
+      "reg": 300,
+      "ate_sim3": 0.009171722084679229,
+      "ate_metric": 0.0743601430678125,
+      "psnr": 31.04270905963445,
+      "ssim": 0.8891061312061245,
+      "lpips": 0.13212459976390256
+    },
+    "COLMAP": {
+      "online": false,
+      "front_s": 7.4,
+      "pose_s": 210.1,
+      "train_s": 188.8,
+      "reg": 300,
+      "ate_sim3": 0.008234999592564083,
+      "ate_metric": null,
+      "psnr": 29.7166004,
+      "ssim": 0.9322069,
+      "lpips": 0.1472641
+    },
+    "GLOMAP": {
+      "online": false,
+      "front_s": 7.4,
+      "pose_s": 51.3,
+      "train_s": 181.0,
+      "reg": 300,
+      "ate_sim3": 0.008375901881890782,
+      "ate_metric": null,
+      "psnr": 29.677927,
+      "ssim": 0.9321851,
+      "lpips": 0.1459465
+    }
+  },
+  "run_05_L": {
+    "frames": 1303,
+    "MonoGS": {
+      "online": true,
+      "pose_s": 800.1305,
+      "train_s": 0.0,
+      "front_s": 0.0,
+      "reg": 1303,
+      "ate_sim3": 0.26185806136682,
+      "ate_metric": 0.2835681858331298,
+      "psnr": 21.86641474971621,
+      "ssim": 0.7409569588233167,
+      "lpips": 0.2523811415248499
+    },
+    "COLMAP": {
+      "online": false,
+      "front_s": 37.4,
+      "pose_s": 1574.6,
+      "train_s": 284.9,
+      "reg": 670,
+      "ate_sim3": 0.02535662807758089,
+      "ate_metric": null,
+      "psnr": 28.1498909,
+      "ssim": 0.929897,
+      "lpips": 0.129846
+    },
+    "GLOMAP": {
+      "online": false,
+      "front_s": 37.4,
+      "pose_s": 247.4,
+      "train_s": 408.7,
+      "reg": 1303,
+      "ate_sim3": 0.08804167172933218,
+      "ate_metric": null,
+      "psnr": 28.3855648,
+      "ssim": 0.9303927,
+      "lpips": 0.1184574
+    }
+  }
+}

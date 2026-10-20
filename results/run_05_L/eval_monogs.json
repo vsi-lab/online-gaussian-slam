@@ -1,0 +1,20 @@
+{
+  "dataset": "datasets/turtlebot/run_05_L",
+  "frames": 1303,
+  "reference": "wheel odometry (not ground truth)",
+  "monogs": {
+    "keyframes": 26,
+    "se3": {
+      "rmse_m": 0.2835681858331298,
+      "max_m": 0.9912465656035602,
+      "scale": 1.0,
+      "n": 26
+    },
+    "sim3": {
+      "rmse_m": 0.26185806136682,
+      "max_m": 1.0642272381937876,
+      "scale": 0.905624800248351,
+      "n": 26
+    }
+  }
+}

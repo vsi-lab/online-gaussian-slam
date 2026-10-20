@@ -1,0 +1,103 @@
+{
+  "frame": "odometry (MonoGS world = first frame anchored to odom)",
+  "cell_m": 0.25,
+  "weights": [
+    0.35,
+    0.35,
+    0.3
+  ],
+  "n_gaussians": 81090,
+  "n_keyframes": 26,
+  "goals": [
+    {
+      "rank": 1,
+      "cell_centre_xy": [
+        10.625,
+        1.125
+      ],
+      "score": 0.7790069876385226,
+      "views": 3.893688388043325,
+      "spread_deg": 3.677827908523371,
+      "residual": 0.039573460732005857,
+      "goal_xy": [
+        9.586,
+        0.525
+      ],
+      "goal_yaw_rad": 0.5236,
+      "new_angle_deg": 72.5999984741211,
+      "detour_m": 1.47
+    },
+    {
+      "rank": 2,
+      "cell_centre_xy": [
+        9.375,
+        -1.625
+      ],
+      "score": 0.7169904241787244,
+      "views": 1.8905202587176009,
+      "spread_deg": 1.439425867211918,
+      "residual": 0.014364507097891263,
+      "goal_xy": [
+        8.456,
+        -2.396
+      ],
+      "goal_yaw_rad": 0.6981,
+      "new_angle_deg": 64.9000015258789,
+      "detour_m": 1.47
+    },
+    {
+      "rank": 3,
+      "cell_centre_xy": [
+        9.625,
+        0.125
+      ],
+      "score": 0.7163741156727815,
+      "views": 1.3275800973241259,
+      "spread_deg": 0.33175353644207606,
+      "residual": 0.008565247099142696,
+      "goal_xy": [
+        8.497,
+        0.535
+      ],
+      "goal_yaw_rad": -0.3491,
+      "new_angle_deg": 48.29999923706055,
+      "detour_m": 1.47
+    },
+    {
+      "rank": 4,
+      "cell_centre_xy": [
+        9.625,
+        1.625
+      ],
+      "score": 0.7,
+      "views": 1.0050942676115877,
+      "spread_deg": 0.01102660660767138,
+      "residual": 0.003276812162622456,
+      "goal_xy": [
+        9.215,
+        0.497
+      ],
+      "goal_yaw_rad": 1.2217,
+      "new_angle_deg": 48.70000076293945,
+      "detour_m": 1.43
+    },
+    {
+      "rank": 5,
+      "cell_centre_xy": [
+        11.625,
+        -2.625
+      ],
+      "score": 0.6828627113067917,
+      "views": 2.511215450828689,
+      "spread_deg": 2.1229570016637926,
+      "residual": 0.014554714934587027,
+      "goal_xy": [
+        11.833,
+        -1.443
+      ],
+      "goal_yaw_rad": -1.7453,
+      "new_angle_deg": 67.5,
+      "detour_m": 0.75
+    }
+  ]
+}

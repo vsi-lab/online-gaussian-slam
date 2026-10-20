@@ -1,0 +1,40 @@
+{
+  "dataset": "datasets/turtlebot/run_01_clip",
+  "frames": 300,
+  "reference": "wheel odometry (not ground truth)",
+  "colmap": {
+    "registered": 300,
+    "registered_frac": 1.0,
+    "sim3": {
+      "rmse_m": 0.008234999592564083,
+      "max_m": 0.01669307847959496,
+      "scale": 0.17931972239571312,
+      "n": 300
+    }
+  },
+  "glomap": {
+    "registered": 300,
+    "registered_frac": 1.0,
+    "sim3": {
+      "rmse_m": 0.008375901881890782,
+      "max_m": 0.01804556800584823,
+      "scale": 0.17927195635742674,
+      "n": 300
+    }
+  },
+  "monogs": {
+    "keyframes": 18,
+    "se3": {
+      "rmse_m": 0.0743601430678125,
+      "max_m": 0.11552576070363897,
+      "scale": 1.0,
+      "n": 18
+    },
+    "sim3": {
+      "rmse_m": 0.009171722084679229,
+      "max_m": 0.018715325959716863,
+      "scale": 0.8827103086575393,
+      "n": 18
+    }
+  }
+}

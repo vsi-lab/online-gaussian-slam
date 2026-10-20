@@ -1,0 +1,33 @@
+# depthai_ros_driver params for our own RGB-D camera node (name: oakd_rgbd).
+# Runs alongside the stock bringup; the stock /oakd node must be stopped first
+# (/oakd/stop_camera) because only one process can open the OAK-D.
+/oakd_rgbd:
+  ros__parameters:
+    camera:
+      i_pipeline_type: RGBD
+      i_nn_type: none
+      i_enable_imu: false
+      i_enable_ir: false             # IR projector off: with it on, the OAK-D dropped off USB (likely power)
+      i_laser_dot_brightness: 0
+      i_floodlight_brightness: 0
+      i_usb_speed: SUPER_PLUS
+    rgb:
+      i_publish_topic: true
+      i_enable_preview: false
+      i_low_bandwidth: false         # raw frames; MJPEG artifacts hurt photometric tracking
+      i_fps: 15.0
+      i_resolution: '1080P'
+      i_set_isp_scale: true
+      i_isp_num: 1                   # 1920x1080 * 1/3 = 640x360
+      i_isp_den: 3
+      i_width: 640
+      i_height: 360
+    left:
+      i_fps: 15.0
+    right:
+      i_fps: 15.0
+    stereo:
+      i_align_depth: true            # depth reprojected into the RGB camera
+      i_subpixel: true
+      i_width: 640
+      i_height: 360
